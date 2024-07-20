@@ -1,0 +1,68 @@
+/* *** Custom properties ****/
+
+/* *** Reset styles ****/
+body{
+  background-color: rgba(230, 192, 233, .25);
+  background-image: url("/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: darkorchid;
+  font-family: "ariane-coachella", serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 100vw;
+}
+
+/* ****** */
+.text-lilian{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.3vw;
+}
+
+.btn{
+  background-color: #9932cc;
+}
+
+.btn:hover{
+  background-color: #9932cc90;
+}
+
+.color-texto{
+  color: #9932cc;
+}
+
+.fecha{
+  background-color: #9932cc;
+}
+
+.footer{
+  background-color: #9932cc;
+}
+
+td {border-style: solid;
+  border-color: #cccccc;
+border-width: 0px;
+
+
+color: #9932cc;  /* Cambia Color Aqui(1) */
+
+padding: 0px;
+font-size: 2rem;
+text-align: center;}
+
+th {
+border-width: 0px;
+
+
+color: #9932cc; /* Cambia Color Aqui(2) */
+
+text-align: center;
+padding: 0px;
+font-size: 0.7rem;}
+
+@font-face {
+  font-family: 'ariane-coachella';
+  src: url("/font/ArianeCoachella-Regular.ttf");
+}
